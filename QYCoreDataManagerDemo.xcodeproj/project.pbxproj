@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E3B75EC1BBBEA7B00B3F12F /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E3B75EB1BBBEA7B00B3F12F /* Person.m */; settings = {ASSET_TAGS = (); }; };
+		1EAE3F581B886E2800F23CE1 /* QYModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1EAE3F561B886E2800F23CE1 /* QYModel.xcdatamodeld */; };
 		1EEA9A781B7F548000CB1E35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA9A771B7F548000CB1E35 /* main.m */; };
 		1EEA9A7B1B7F548000CB1E35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA9A7A1B7F548000CB1E35 /* AppDelegate.m */; };
 		1EEA9A7E1B7F548000CB1E35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA9A7D1B7F548000CB1E35 /* ViewController.m */; };
@@ -14,6 +16,7 @@
 		1EEA9A831B7F548000CB1E35 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA9A821B7F548000CB1E35 /* Images.xcassets */; };
 		1EEA9A861B7F548000CB1E35 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEA9A841B7F548000CB1E35 /* LaunchScreen.xib */; };
 		1EEA9A921B7F548100CB1E35 /* QYCoreDataManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA9A911B7F548100CB1E35 /* QYCoreDataManagerDemoTests.m */; };
+		1EEA9A9E1B7F561500CB1E35 /* QYCoreDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEA9A9D1B7F561500CB1E35 /* QYCoreDataManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E3B75EA1BBBEA7B00B3F12F /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		1E3B75EB1BBBEA7B00B3F12F /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		1EAE3F571B886E2800F23CE1 /* QYModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = QYModel.xcdatamodel; sourceTree = "<group>"; };
 		1EEA9A721B7F548000CB1E35 /* QYCoreDataManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QYCoreDataManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEA9A761B7F548000CB1E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EEA9A771B7F548000CB1E35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +46,8 @@
 		1EEA9A8B1B7F548100CB1E35 /* QYCoreDataManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QYCoreDataManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EEA9A901B7F548100CB1E35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1EEA9A911B7F548100CB1E35 /* QYCoreDataManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QYCoreDataManagerDemoTests.m; sourceTree = "<group>"; };
+		1EEA9A9C1B7F561500CB1E35 /* QYCoreDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QYCoreDataManager.h; sourceTree = "<group>"; };
+		1EEA9A9D1B7F561500CB1E35 /* QYCoreDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QYCoreDataManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 		1EEA9A691B7F548000CB1E35 = {
 			isa = PBXGroup;
 			children = (
+				1EEA9A9B1B7F561500CB1E35 /* QYCoreDataManager */,
 				1EEA9A741B7F548000CB1E35 /* QYCoreDataManagerDemo */,
 				1EEA9A8E1B7F548100CB1E35 /* QYCoreDataManagerDemoTests */,
 				1EEA9A731B7F548000CB1E35 /* Products */,
@@ -85,6 +94,9 @@
 				1EEA9A7A1B7F548000CB1E35 /* AppDelegate.m */,
 				1EEA9A7C1B7F548000CB1E35 /* ViewController.h */,
 				1EEA9A7D1B7F548000CB1E35 /* ViewController.m */,
+				1E3B75EA1BBBEA7B00B3F12F /* Person.h */,
+				1E3B75EB1BBBEA7B00B3F12F /* Person.m */,
+				1EAE3F561B886E2800F23CE1 /* QYModel.xcdatamodeld */,
 				1EEA9A7F1B7F548000CB1E35 /* Main.storyboard */,
 				1EEA9A821B7F548000CB1E35 /* Images.xcassets */,
 				1EEA9A841B7F548000CB1E35 /* LaunchScreen.xib */,
@@ -117,6 +129,15 @@
 				1EEA9A901B7F548100CB1E35 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1EEA9A9B1B7F561500CB1E35 /* QYCoreDataManager */ = {
+			isa = PBXGroup;
+			children = (
+				1EEA9A9C1B7F561500CB1E35 /* QYCoreDataManager.h */,
+				1EEA9A9D1B7F561500CB1E35 /* QYCoreDataManager.m */,
+			);
+			path = QYCoreDataManager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +184,7 @@
 		1EEA9A6A1B7F548000CB1E35 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = qianye;
 				TargetAttributes = {
 					1EEA9A711B7F548000CB1E35 = {
@@ -219,8 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E3B75EC1BBBEA7B00B3F12F /* Person.m in Sources */,
 				1EEA9A7E1B7F548000CB1E35 /* ViewController.m in Sources */,
 				1EEA9A7B1B7F548000CB1E35 /* AppDelegate.m in Sources */,
+				1EEA9A9E1B7F561500CB1E35 /* QYCoreDataManager.m in Sources */,
+				1EAE3F581B886E2800F23CE1 /* QYModel.xcdatamodeld in Sources */,
 				1EEA9A781B7F548000CB1E35 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +308,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,6 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYCoreDataManagerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianye.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,6 +385,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = QYCoreDataManagerDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianye.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -377,6 +404,7 @@
 				);
 				INFOPLIST_FILE = QYCoreDataManagerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianye.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYCoreDataManagerDemo.app/QYCoreDataManagerDemo";
 			};
@@ -392,6 +420,7 @@
 				);
 				INFOPLIST_FILE = QYCoreDataManagerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.qianye.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QYCoreDataManagerDemo.app/QYCoreDataManagerDemo";
 			};
@@ -416,6 +445,7 @@
 				1EEA9A971B7F548100CB1E35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1EEA9A981B7F548100CB1E35 /* Build configuration list for PBXNativeTarget "QYCoreDataManagerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,8 +454,22 @@
 				1EEA9A9A1B7F548100CB1E35 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1EAE3F561B886E2800F23CE1 /* QYModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1EAE3F571B886E2800F23CE1 /* QYModel.xcdatamodel */,
+			);
+			currentVersion = 1EAE3F571B886E2800F23CE1 /* QYModel.xcdatamodel */;
+			path = QYModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 1EEA9A6A1B7F548000CB1E35 /* Project object */;
 }
